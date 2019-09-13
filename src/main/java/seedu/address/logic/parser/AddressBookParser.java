@@ -54,8 +54,8 @@ public class AddressBookParser {
         case ListCommand.COMMAND_WORD:
             return new ListCommand();
 
-            case RemarkCommand.COMMAND_WORD:
-                return new RemarkCommand();
+        case RemarkCommand.COMMAND_WORD:
+            return new RemarkCommand();
 
         case ExitCommand.COMMAND_WORD:
             return new ExitCommand();
