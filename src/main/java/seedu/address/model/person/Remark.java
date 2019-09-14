@@ -8,7 +8,6 @@ import static java.util.Objects.requireNonNull;
  */
 public class Remark {
     public final String value;
-    public static final String MESSAGE_CONSTRAINTS = "Remark should be a non-empty string.";
 
     public Remark(String remark) {
         requireNonNull(remark);
@@ -30,9 +29,5 @@ public class Remark {
     @Override
     public int hashCode() {
         return value.hashCode();
-    }
-
-    public static boolean isValidRemark(String remark) {
-        return !remark.isEmpty();
     }
 }
