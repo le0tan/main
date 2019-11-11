@@ -875,7 +875,6 @@ Step 6. The user executes `deleteplan 1`, which calls `Model#getFilteredPlanList
 
 *Target user profile*:
 
-* has a need to manage a significant number of contacts
 * prefer desktop apps over other types
 * can type fast
 * prefers typing over mouse input
